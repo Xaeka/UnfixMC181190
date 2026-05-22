@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "CC-BY-NC-SA-4.0"
+issueTrackerURL = "https://github.com/Xaeka/UnfixMC181190/issues"
+
+[[mods]]
+modId = "unfixmc181190"
+version = "${file.jarVersion}"
+displayName = "Unfix MC-181190"
+description = "This mod brings back the feature of cured villager's discount stacking which is \"fixed\" in 23w31a. \n此模组恢复了治愈村民折扣叠加的功能，该功能在 23w31a 版本中被\"修复\"。"
+authors = ["Xaeka"]
+logoFile = "icon.png"
+
+[[mods.dependencies.unfixmc181190]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.11,)"
+
+[[mods.dependencies.unfixmc181190]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.11,1.22)"
+
+[[mixins]]
+    config = "unfixmc181190.mixins.json"
