@@ -1,6 +1,6 @@
-<div style="text-align: center;">
-  <img src="https://i.postimg.cc/W3y5wF7h/icon.png" alt="icon.png">
-</div>
+<p align="center">
+	<img alt="logo" src="https://i.postimg.cc/W3y5wF7h/icon.png">
+</p>
 
 
 # Unfix MC-181190
